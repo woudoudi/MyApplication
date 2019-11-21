@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">物流之家</string>
+    <string name="appbarZoomBehavior">com.edaochina.axinbaba.behavior.AppbarZoomBehavior</string>
+</resources>

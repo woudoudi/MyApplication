@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.edaochina.axinbaba.MainActivity"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_behavior="@string/appbarZoomBehavior">
+
+       <android.support.design.widget.CollapsingToolbarLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           app:contentScrim="@color/colorPrimary"
+           app:collapsedTitleGravity="right"
+           app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+
+           <ImageView
+               android:id="@+id/iv_img"
+               android:layout_width="match_parent"
+               android:layout_height="200dp"
+               android:src="@mipmap/ic_launcher"
+               android:scaleType="fitXY"
+               app:layout_collapseMode="parallax"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="200dp"
+               android:text="sfasfdsvfdszxcjjbcjajbcsak,lkbcbscakjscsasafdvgsasdfcasdasdascsa"
+               android:textSize="30sp"/>
+
+           <android.support.v7.widget.Toolbar
+               android:layout_width="match_parent"
+               android:layout_height="55dp"
+               app:layout_collapseMode="pin"
+               android:theme="@style/ThemeOverlay.AppCompat.Dark"
+               app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+           </android.support.v7.widget.Toolbar>
+
+       </android.support.design.widget.CollapsingToolbarLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="title"
+            android:gravity="center"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+</android.support.design.widget.CoordinatorLayout>

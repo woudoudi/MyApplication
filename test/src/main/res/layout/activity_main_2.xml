@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.edaochina.axinbaba.MainActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.edaochina.axinbaba.behavior.CustomBehavior1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="A\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\n"
+            android:textSize="20sp" />
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|top">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="A\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\n"
+            android:textSize="20sp" />
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
